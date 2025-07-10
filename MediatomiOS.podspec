@@ -129,7 +129,7 @@ Pod::Spec.new do |s|
   
   s.subspec 'SFAdZyAdapter' do |ss|
     ss.ios.deployment_target = '11.0'
-    ss.dependency 'YDZySDK'
+    ss.dependency 'OctopusSDK'
     ss.dependency 'MediatomiOS/MSaas'
     ss.vendored_frameworks = 'MediatomiOS/SFAdZyAdapter.xcframework'
   end
