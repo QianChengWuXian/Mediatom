@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "MediatomiOS"
-  s.version      = "2.8.5.0.0"
+  s.version      = "2.8.5.0.1"
   s.summary      = "Mobile App Aggregation Ad SDK of Mediatom SDK for iOS."
   s.description  = <<-DESC
             Mediatom SDK is an advertising aggregation SDK that allows you to monetize iOS applications through Mediatom advertising.
@@ -252,7 +252,6 @@ Pod::Spec.new do |s|
     ss.dependency 'TPNApplovinSDKAdapter', '6.4.76'
     ss.dependency 'GoogleMobileAdsMediationAppLovin', '13.2.0.0'
     
-    ss.dependency 'AppLovinMediationChartboostAdapter', '9.9.0.0'
     ss.dependency 'AppLovinMediationIronSourceAdapter', '8.8.0.0.0'
     ss.dependency 'AppLovinMediationYandexAdapter', '7.12.3.0'
     ss.dependency 'AppLovinMediationFyberAdapter', '8.3.6.0'
@@ -296,8 +295,6 @@ Pod::Spec.new do |s|
     ss.dependency 'TradPlusAdSDK/FyberAdapter', '13.8.0'
     ss.dependency 'IronSourceSDK','8.8.0.0'
     ss.dependency 'YandexMobileAds', '7.12.3'
-    ss.dependency 'ChartboostMediationSDK','5.2.0'
-    ss.dependency 'ChartboostMediationAdapterChartboost','5.9.9.0.0'
     ss.dependency 'Fyber_Marketplace_SDK', '8.3.6'
     
     ss.dependency 'MediatomiOS/MSaas'
