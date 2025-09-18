@@ -390,7 +390,6 @@ Pod::Spec.new do |s|
   s.subspec 'SFAdCJAdapter' do |ss|
     ss.ios.deployment_target = '11.0'
     ss.dependency 'MediatomiOS/MSaas'
-    ss.dependency 'CJMobileAd'
     ss.vendored_frameworks = 'MediatomiOS/SFAdCJAdapter.xcframework'
   end
 
