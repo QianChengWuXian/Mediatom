@@ -400,4 +400,11 @@ Pod::Spec.new do |s|
     ss.vendored_frameworks = 'MediatomiOS/SFAdFsAdapter.xcframework'
   end
 
+  s.subspec 'SFAdFgAdapter' do |ss|
+    ss.ios.deployment_target = '11.0'
+    ss.dependency 'MediatomiOS/MSaas'
+    ss.dependency 'TimeAdSDK'
+    ss.vendored_frameworks = 'MediatomiOS/SFAdFgAdapter.xcframework'
+  end
+
 end
