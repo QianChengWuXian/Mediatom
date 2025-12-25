@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "MediatomiOS"
-  s.version      = "2.8.9.1.4"
+  s.version      = "2.8.9.1.5"
   s.summary      = "Mobile App Aggregation Ad SDK of Mediatom SDK for iOS."
   s.description  = <<-DESC
             Mediatom SDK is an advertising aggregation SDK that allows you to monetize iOS applications through Mediatom advertising.
@@ -405,6 +405,20 @@ Pod::Spec.new do |s|
     ss.dependency 'MediatomiOS/MSaas'
     ss.dependency 'TimeAdSDK'
     ss.vendored_frameworks = 'MediatomiOS/SFAdFgAdapter.xcframework'
+  end
+
+   s.subspec 'SFAdMedProADXAdapter' do |ss|
+    ss.ios.deployment_target = '11.0'
+    ss.dependency 'MediatomiOS/MSaas'
+    ss.dependency 'YDMedProADXSDK'
+    ss.vendored_frameworks = 'MediatomiOS/SFAdMedProADXAdapter.xcframework'
+  end
+
+    s.subspec 'SFAdCxjAdapter' do |ss|
+    ss.ios.deployment_target = '11.0'
+    ss.dependency 'MediatomiOS/MSaas'
+    ss.dependency 'YDCxjSDK'
+    ss.vendored_frameworks = 'MediatomiOS/SFAdCxjAdapter.xcframework'
   end
 
 end
