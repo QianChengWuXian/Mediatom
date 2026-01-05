@@ -376,7 +376,6 @@ Pod::Spec.new do |s|
     ss.ios.deployment_target = '11.0'
     ss.dependency 'MediatomiOS/MSaas'
     ss.dependency 'AdWangMaiSDK'
-    ss.dependency 'AdWangMaiSDK/OneAdapter'
     ss.vendored_frameworks = 'MediatomiOS/SFAdWMAdapter.xcframework'
   end
 
