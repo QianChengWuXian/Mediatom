@@ -248,9 +248,9 @@ Pod::Spec.new do |s|
   
   s.subspec 'SFAdApplovinAdapter' do |ss|
     ss.ios.deployment_target = '13.0'
-    ss.dependency 'AppLovinSDK', '13.5.0'
+    ss.dependency 'AppLovinSDK', '13.6.0'
     ss.dependency 'TradPlusAdSDK/AppLovinAdapter', '15.0.0'
-    ss.dependency 'TPNMediationApplovinAdapter','13.5.0.1'
+    ss.dependency 'TPNMediationApplovinAdapter','13.6.0.0'
     
     ss.dependency 'AppLovinMediationIronSourceAdapter', '9.2.0.0.0'
     ss.dependency 'AppLovinMediationYandexAdapter', '7.18.3.0'
