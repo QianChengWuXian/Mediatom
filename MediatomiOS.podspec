@@ -243,6 +243,7 @@ Pod::Spec.new do |s|
     ss.dependency 'MediatomiOS/MSaas'
     ss.dependency 'MediatomiOS/SFAdTnAdapter'
     ss.dependency 'MediatomiOS/SFAdTpAdapter'
+    ss.dependency 'MediatomiOS/SFAdApplovinAdapter'
     ss.vendored_frameworks = 'MediatomiOS/SFAdMobAdapter.xcframework'
   end
   
