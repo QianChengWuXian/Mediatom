@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "MediatomiOS"
-  s.version      = "2.9.0.0.2"
+  s.version      = "2.9.0.0.3"
   s.summary      = "Mobile App Aggregation Ad SDK of Mediatom SDK for iOS."
   s.description  = <<-DESC
             Mediatom SDK is an advertising aggregation SDK that allows you to monetize iOS applications through Mediatom advertising.
@@ -241,9 +241,7 @@ Pod::Spec.new do |s|
     ss.dependency 'TradPlusAdSDK/AppLovinAdapter', '15.0.0'
     ss.dependency 'AppLovinMediationIronSourceAdapter', '9.2.0.0.0'
     ss.dependency 'AppLovinMediationYandexAdapter', '7.18.3.0'
-    ss.dependency 'AppLovinMediationFyberAdapter', '8.4.4.0'
-    ss.dependency 'AppLovinMediationBigoAdsAdapter', '5.0.0.0'
-    
+    ss.dependency 'AppLovinMediationFyberAdapter', '8.4.4.0'    
     
     ss.dependency 'MediatomiOS/MSaas'
     ss.dependency 'MediatomiOS/SFAdTpAdapter'
@@ -255,6 +253,8 @@ Pod::Spec.new do |s|
     ss.ios.deployment_target = '13.0'
     ss.dependency 'BigoADS', '5.0.0'
     ss.dependency 'TradPlusAdSDK/BigoAdapter', '15.0.0'
+    ss.dependency 'AppLovinMediationBigoAdsAdapter', '5.0.0.0'
+    ss.dependency 'TPNMediationBigoAdapter','5.0.0.0'
     ss.dependency 'MediatomiOS/MSaas'
     ss.dependency 'MediatomiOS/SFAdTpAdapter'
     ss.vendored_frameworks = 'MediatomiOS/SFAdBigoAdapter.xcframework'
@@ -271,7 +271,6 @@ Pod::Spec.new do |s|
     ss.dependency 'TPNMediationInmobiAdapter','11.1.0.0'
     ss.dependency 'TPNMediationAdmobAdapter','12.14.0.0'
     ss.dependency 'TPNMediationApplovinAdapter','13.6.0.0'
-    ss.dependency 'TPNMediationBigoAdapter','5.0.0.0'
     ss.dependency 'TPNMediationPangleAdapter', '7.8.5.7.0'
     ss.dependency 'MediatomiOS/MSaas'
     ss.vendored_frameworks = 'MediatomiOS/SFAdTnAdapter.xcframework'
@@ -356,6 +355,7 @@ Pod::Spec.new do |s|
     ss.ios.deployment_target = '11.0'
     ss.dependency 'MediatomiOS/MSaas'
     ss.dependency 'AnyThinkiOS'
+    ss.dependency 'AnyThinkMediationAdxSmartdigimktCNAdapter'
     ss.vendored_frameworks = 'MediatomiOS/SFAdTakuAdapter.xcframework'
   end
 
