@@ -2,12 +2,12 @@
 
  [![Docs-zh](https://shields.io/badge/Docs-中文-blue?logo=Read%20The%20Docs)](https://xiaofu666.github.io/static/html/iOS-SDK-对接文档.html)
  [![README-zh](https://shields.io/badge/README-中文-blue)](README.md)
- [![MediatomiOS](https://img.shields.io/badge/MediatomiOS-AD-red.svg)](https://github.com/Mediatom/Mediatom_iOS.git)
- [![Build](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/Mediatom/Mediatom_iOS.git)
- [![Language](https://img.shields.io/badge/Language-Objective--C-FF7F24.svg?style=flat)](https://github.com/Mediatom/Mediatom_iOS.git)
- [![CocoaPods](https://img.shields.io/cocoapods/p/MediatomiOS.svg)](https://github.com/Mediatom/Mediatom_iOS.git)
- [![CocoaPods](https://img.shields.io/cocoapods/v/MediatomiOS.svg)](https://github.com/Mediatom/Mediatom_iOS.git)
- [![开源爱情](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/Mediatom/Mediatom_iOS.git)
+ [![MediatomiOS](https://img.shields.io/badge/MediatomiOS-AD-red.svg)](https://github.com/QianChengWuXian/Mediatom.git)
+ [![Build](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/QianChengWuXian/Mediatom.git)
+ [![Language](https://img.shields.io/badge/Language-Objective--C-FF7F24.svg?style=flat)](https://github.com/QianChengWuXian/Mediatom.git)
+ [![CocoaPods](https://img.shields.io/cocoapods/p/MediatomiOS.svg)](https://github.com/QianChengWuXian/Mediatom.git)
+ [![CocoaPods](https://img.shields.io/cocoapods/v/MediatomiOS.svg)](https://github.com/QianChengWuXian/Mediatom.git)
+ [![开源爱情](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/QianChengWuXian/Mediatom.git)
 
 ![mediatom.gif](Logo/mediatom.gif)
 
@@ -92,7 +92,7 @@ $ pod repo update
 $ pod install
 ```
 
-更多详情，请阅读[接入文档](https://xiaofu666.github.io/static/html/iOS-SDK-对接文档.html)
+更多详情，请阅读[接入文档](https://github.com/QianChengWuXian/Mediatom.git)
 
 ## 作者
 
