@@ -465,6 +465,7 @@ Pod::Spec.new do |s|
     ss.dependency 'MediatomiOS/MSaas'
     ss.dependency 'YDSDSDK'
     ss.vendored_frameworks = 'MediatomiOS/SFAdMedproSDAdapter.xcframework'
+  end
 
     #赛点
     s.subspec 'SFAdMedProSCAdapter' do |ss|
@@ -474,4 +475,13 @@ Pod::Spec.new do |s|
     ss.vendored_frameworks = 'MediatomiOS/SFAdMedProSCAdapter.xcframework'
   end
 
+    #互裕
+    s.subspec 'SFAdMedProSAAdapter' do |ss|
+    ss.ios.deployment_target = '11.0'
+    ss.dependency 'MediatomiOS/MSaas'
+    ss.dependency 'YDMedProSASDK'
+    ss.vendored_frameworks = 'MediatomiOS/SFAdMedProSAAdapter.xcframework'
+  end
 end
+
+
