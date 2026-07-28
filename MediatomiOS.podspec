@@ -518,6 +518,32 @@ Pod::Spec.new do |s|
     ss.vendored_frameworks = 'MediatomiOS/SFAdRuishiAdapter.xcframework'
   end
 
+  #欢效
+    s.subspec 'SFAdMedproFHAdapter' do |ss|
+    ss.ios.deployment_target = '12.0'
+    ss.dependency 'MediatomiOS/MSaas'
+    ss.dependency 'MedproFHHuanxiaoSDK'
+    ss.vendored_frameworks = 'MediatomiOS/SFAdMedproFHAdapter.xcframework'
+  end
+
+ #咩叽科
+    s.subspec 'SFAdYJKAdapter' do |ss|
+    ss.ios.deployment_target = '12.0'
+    ss.dependency 'MediatomiOS/MSaas'
+    ss.dependency 'MagicAdSDK'
+    ss.vendored_frameworks = 'MediatomiOS/SFAdYJKAdapter.xcframework'
+  end
+
+#SFAdMedproFKAdapter 数字跃动
+    s.subspec 'SFAdMedproFKAdapter' do |ss|
+    ss.ios.deployment_target = '12.0'
+    ss.dependency 'MediatomiOS/MSaas'
+    ss.dependency 'YDMedProFKSDK'
+    ss.vendored_frameworks = 'MediatomiOS/SFAdMedproFKAdapter.xcframework'
+  end
+
+
+
 end
 
 
