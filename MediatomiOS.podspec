@@ -520,7 +520,7 @@ Pod::Spec.new do |s|
 
   #欢效
     s.subspec 'SFAdMedproFHAdapter' do |ss|
-    ss.ios.deployment_target = '12.0'
+    ss.ios.deployment_target = '13.0'
     ss.dependency 'MediatomiOS/MSaas'
     ss.dependency 'MedproFHHuanxiaoSDK'
     ss.vendored_frameworks = 'MediatomiOS/SFAdMedproFHAdapter.xcframework'
